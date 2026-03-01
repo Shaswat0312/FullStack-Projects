@@ -1,0 +1,59 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
+# Dependencies
+node_modules/
+/bower_components/
+
+# Build artifacts, output folders, and temporary files
+/dist/
+/build/
+/out/
+/coverage/
+/temp/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.tsbuildinfo
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor/OS-specific files
+.idea/             # JetBrains IDEs
+.vscode/           # VS Code
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+.DS_Store          # macOS specific
+Thumbs.db          # Windows specific
